@@ -1,0 +1,233 @@
+!DOCTYPE html>
+<html>
+<head>
+<title>DOOF THE HAPPY TUMMY</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC",sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("MAIN.jpg");
+  min-height: 90%;
+}
+<script language="javascript">
+function showmessage()
+{
+alert('Message Sent check your email for more details!');
+}
+</script>
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#menu" class="w3-bar-item w3-button">MENU</a>
+    <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#myMap" class="w3-bar-item w3-button">CONTACT</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Open from 10am to 12pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px">DOOF<br>HAPPY TUMMY</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>DOOF<br>HAPPY TUMMY</b></span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Let me see the menu</a></p>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">THE MENU</h1>
+    <div class="w3-row w3-center w3-border w3-border-dark-grey">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'STARTER');" id="myLink">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Starter</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'BIRYANIS');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">BIRYANIS'</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'BREADS');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">Breads</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'DESSERTS');">
+        <div class="w3-col s4 tablink w3-padding-large w3-hover-red">DESSERTS</div>
+    </a>
+    </div>
+
+
+    <div id="STARTER" class="w3-container menu w3-padding-32 w3-white">
+      <h1><b>chilli chicken</b> <span class="w3-right w3-tag w3-dark-grey w3-round">264/-</span></h1>
+      
+      <hr>
+   
+      <h1><b>CHIILI 65</b> <span class="w3-right w3-tag w3-dark-grey w3-round">264/-</span></h1>
+      
+      <hr>
+      
+      <h1><b>PEPPER CHICKEN</b> <span class="w3-right w3-tag w3-dark-grey w3-round">264/-</span></h1>
+      
+      <hr>
+
+      <h1><b>PANNER 65</b> <span class="w3-right w3-tag w3-dark-grey w3-round">196/-</span></h1>
+      
+      <hr>
+
+      <h1><b>VEG.MANCHURIA</b> <span class="w3-tag w3-red w3-round"></span><span class="w3-right w3-tag w3-dark-grey w3-round">186/-</span></h1>
+      
+      <hr>
+
+      <h1><b>APPOLO FISH</b> <span class="w3-tag w3-grey w3-round">New</span><span class="w3-right w3-tag w3-dark-grey w3-round">250/-</span></h1>
+      
+    </div>
+
+    <div id="BIRYANIS" class="w3-container menu w3-padding-32 w3-white">
+      <h3><b>CHICKEN BIRYANI</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">210/-</span></h3>
+     
+      <hr>
+   
+      <h3><b>MUTTON BIRYANI</b> <span class="w3-right w3-tag w3-dark-grey w3-round">253/-</span></h3>
+      
+      <hr>
+      
+      <h3><b>CHICKEN BIRYANI FAMILY PACK</b> <span class="w3-right w3-tag w3-dark-grey w3-round">552/-</span></h3>
+      <hr>
+
+      <h3><b>MUTTON BIRYANI FAMILYPACK</b> <span class="w3-right w3-tag w3-dark-grey w3-round">599/-</span></h3>
+      
+      <hr>
+      
+       <h3><b>VEG.BIRYANI</b> <span class="w3-right w3-tag w3-dark-grey w3-round">599/-</span></h3>
+       
+       <hr>
+       
+        <h3><b>VEG.BIRYANI FAMILY PACK</b> <span class="w3-right w3-tag w3-dark-grey w3-round">599/-</span></h3>
+     
+    </div>
+
+
+    <div id="BREADS" class="w3-container menu w3-padding-32 w3-white">
+      <h3><b>TANDOORI ROTI</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">40/-</span></h3>
+      
+      <hr>
+   
+      <h3><b>RUMALI ROTI</b> <span class="w3-right w3-tag w3-dark-grey w3-round">40/-</span></h3>
+     
+      <hr>
+      
+      <h3><b>Garlic bread</b> <span class="w3-right w3-tag w3-dark-grey w3-round">80/-</span></h3>
+      
+      <hr>
+      
+      <h3><b>BUTTER NAAN</b> <span class="w3-right w3-tag w3-dark-grey w3-round">50/-</span></h3>
+      
+</div>
+
+ <div id="DESSERTS" class="w3-container menu w3-padding-32 w3-white">
+      <h3><b>Qubani ka Meetha </b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">107/-</span></h3>
+      
+      <hr>
+   
+      <h3><b>Double ka Meetha</b> <span class="w3-right w3-tag w3-dark-grey w3-round">73/-</span></h3>
+     
+      <hr>
+      
+      <h3><b>Gulab jamun</b> <span class="w3-right w3-tag w3-dark-grey w3-round">109/-</span></h3>
+      
+      <hr>
+      
+      <h3><b>Rasamalai</b> <span class="w3-right w3-tag w3-dark-grey w3-round">50/-</span></h3>
+      
+    </div><br>
+
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">About</h1>
+    <p>The 'DOOF HAPPY TUMMY'Restaurant was founded in INDIA by a group of MLRIT students, it serves the customer outmost service with a great statisfaction. </p>
+    <p>FOR ANY PARTY OR CATERING ORERS YOU CAN REACH OUT OUR CHEFS GIVEN BELOW. </p>
+    <p>You can hire them and request them for a sample of their food and you can hire them according to the packages </p>
+    <p><strong>The Chef?</strong> <a href="manoj.html">Mr. MANOJ KUMAR</a>
+    <p><strong>The Chef?</strong> <a href="harshith.html">Mr. HARSHITH</a> 
+    <p><strong>The Chef?</strong> <a href="srilatha.html">Mrs. SRI LATHA</a> 
+    <p><strong>The Chef?</strong> <a href="harshikha.html">Mrs. HARSHIKHA</a>  
+    <p>We are proud of our interiors.</p>
+    <img src=".\rdf1.jpg" style="width:100%" class="w3-margin-top w3-margin-bottom" alt="Restaurant">
+    <h1><b>Opening Hours</b></h1>
+    
+    <div class="w3-row">
+      <div class="w3-col s6">
+        <p>Mon & Tue CLOSED</p>
+        <p>Wednesday 10.00 - 24.00</p>
+        <p>Thursday 10:00 - 24:00</p>
+      </div>
+      <div class="w3-col s6">
+        <p>Friday 10:00 - 12:00</p>
+        <p>Saturday 10:00 - 23:00</p>
+        <p>Sunday Closed</p>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src=".\rdf-2.jpg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
+
+<!-- Contact -->
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Contact</h1>
+    <p>Find us at some address at some place or call us at +91 9640852353</p>
+    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p class="w3-xxlarge"><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-block" type="button" onclick="alert('Message Sent check Mail for conformation!')">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+   
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
